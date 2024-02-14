@@ -3,9 +3,7 @@
 Katutaso::Katutaso() {
     cout << "katutaso luotu" << endl;
 }
-Katutaso::~Katutaso() {
-    //cout << "katutaso luotu" << endl;
-}
+
 
 void Katutaso::maaritaAsunnot()
 {
@@ -15,9 +13,7 @@ void Katutaso::maaritaAsunnot()
 
 }
 
-double Katutaso::laskeKulutus(double)
+double Katutaso::laskeKulutus(double hinta)
 {
-    double yhteensa = as1.laskeKulutus(2);
-    cout << "Kerroksen yhteiskulutus on " << yhteensa << endl;
-    return yhteensa;
+    return as1.laskeKulutus(hinta)+as2.laskeKulutus(hinta);
 }

@@ -12,8 +12,10 @@ public:
     double laskeKulutus(double);
 
 private:
-    Asunto as1;
-    Asunto as2;
+    Asunto * as1;
+    Asunto * as2;
+
+
 };
 
 #endif // KATUTASO_H

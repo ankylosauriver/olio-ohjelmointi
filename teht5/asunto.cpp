@@ -11,7 +11,7 @@ void Asunto::maarita(int am, int n)
 {
     asukasMaara = am;
     neliot = n;
-    cout << "asunto maaritetty asukkaita= " << am << " nelioita= " << n << endl;
+    cout << "Asunto maaritetty asukkaita= " << am << " nelioita= " << n << endl;
 
 }
 
